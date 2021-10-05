@@ -1,6 +1,6 @@
 console.log('hello!');
 function hideshow(){
-    let x=document.getElementsByClassName('menu');
+    let x=document.getElementsByClassName('navbar');
     
     if(x[0].style.display!='none')
         {
