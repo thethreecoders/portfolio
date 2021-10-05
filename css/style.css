@@ -1,0 +1,82 @@
+*{
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-size: 3vw;
+}
+ html,body{
+    height: 100%;
+    width:100%;   
+    margin: 0;
+} 
+body{
+    background-image: linear-gradient(140deg, #fe8285,#c4d5db,#e3cbcd);
+    background-repeat: no-repeat;
+}
+.container{
+    padding: 2px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5px;
+    padding: 5px;
+    text-align: center;
+}
+.name{
+    font-size: 4vw;
+}
+.name::first-letter{
+    font-size: 8vw;
+    color: #c4d5db;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: -10px;
+}
+.navbar .links{
+    font-size: 3vw;
+    padding: 5px;
+}
+.navbar .burger{
+    padding: 5px;
+    font-size: 3vw;
+    margin-top: -2px;
+}
+.mid-body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.mid-body .image{
+    padding: 13px;
+}
+.mid-body .image img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+    border-radius: 20px;
+    box-shadow: #fe8285 1px 2px 9px 6px,
+                inset #dd2427 1px 2px 3px 4px;
+}
+.mid-body .footer{
+    padding: 10px;
+}
+.quotes{
+    text-align: center;
+}
+.quotes::after{
+    content:'"';
+    font-size: 1.5em;
+}
+.quotes::before{
+    content: '"';
+    font-size: 1.5em;
+}
